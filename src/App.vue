@@ -1,6 +1,6 @@
 <template lang="pug">
   #app
-    img(src='./assets/logo.png')
+    img(src='https://rhaygon.github.io/xmusic/dist/logo.png')
     h1 XMusic
     select(v-model="selectedCuontry")
       option(v-for="country in countries" :value="country.value") {{ country.name }}
